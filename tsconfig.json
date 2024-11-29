@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",  // Use ES6 para suporte à async/await
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,  // Necessário para importação correta de módulos
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
+  }
+}
